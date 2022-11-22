@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>881</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>291</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+font: 75 italic 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Coupon type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>190</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+font: 75 italic 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Age:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>320</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+font: 75 italic 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Item1:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>440</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+font: 75 italic 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Item2:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>570</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+font: 75 italic 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Item3:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAge">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>200</y>
+     <width>461</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 75 italic 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditItem1">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>330</y>
+     <width>461</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 75 italic 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditItem2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>450</y>
+     <width>461</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 75 italic 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditItem3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>580</y>
+     <width>461</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 75 italic 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>730</y>
+     <width>291</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+font: 75 italic 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Coupon type</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>660</y>
+     <width>131</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color:rgb(170, 0, 0);
+font: italic 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Predict</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
